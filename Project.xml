@@ -112,7 +112,6 @@
 	<haxelib name="discord_rpc" if="desktop"/>
 	<haxelib name="tjson" version="1.4.0"/>
 	<haxelib name="hxcpp" version="4.3.2"/>
-	<haxelib name="lime" version="8.0.2"/>
 
 	<haxedef name="openflPos" />
 	<haxedef name="hscriptPos" />
