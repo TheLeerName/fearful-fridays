@@ -17,7 +17,7 @@ var chromakeyshader = new FlxRuntimeShader("
 	void main() {
 		#pragma body
 		if (gl_FragColor.r < 0.5 && gl_FragColor.g > 0.5 && gl_FragColor.b < 0.5)
-			gl_FragColor = vec4(0);
+			gl_FragColor = vec4(0.0);
 
 		gl_FragColor.rgb /= 1.5; // fade
 	}
