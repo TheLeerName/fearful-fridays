@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="whitewalts.png">
+<SubTexture name="whitewalts down0000" x="2430" y="0" width="466" height="479" frameX="-37" frameY="-160" frameWidth="609" frameHeight="745" />
+<SubTexture name="whitewalts down0001" x="2430" y="479" width="466" height="474" frameX="-35" frameY="-165" frameWidth="609" frameHeight="745" />
+<SubTexture name="whitewalts down0002" x="0" y="1994" width="467" height="469" frameX="-33" frameY="-170" frameWidth="609" frameHeight="745" />
+<SubTexture name="whitewalts down0003" x="467" y="1994" width="467" height="467" frameX="-33" frameY="-172" frameWidth="609" frameHeight="745" />
+<SubTexture name="whitewalts down0004" x="467" y="1994" width="467" height="467" frameX="-33" frameY="-172" frameWidth="609" frameHeight="745" />
+<SubTexture name="whitewalts down0005" x="467" y="1994" width="467" height="467" frameX="-33" frameY="-172" frameWidth="609" frameHeight="745" />
+<SubTexture name="whitewalts idle0000" x="0" y="510" width="466" height="497" frameX="-37" frameY="-142" frameWidth="609" frameHeight="745" />
+<SubTexture name="whitewalts idle0001" x="467" y="1007" width="467" height="494" frameX="-36" frameY="-145" frameWidth="609" frameHeight="745" />
+<SubTexture name="whitewalts idle0002" x="933" y="1502" width="467" height="487" frameX="-33" frameY="-152" frameWidth="609" frameHeight="745" />
+<SubTexture name="whitewalts idle0003" x="1400" y="1502" width="467" height="486" frameX="-33" frameY="-153" frameWidth="609" frameHeight="745" />
+<SubTexture name="whitewalts idle0004" x="1867" y="1502" width="467" height="485" frameX="-33" frameY="-154" frameWidth="609" frameHeight="745" />
+<SubTexture name="whitewalts idle0005" x="466" y="1502" width="467" height="488" frameX="-32" frameY="-151" frameWidth="609" frameHeight="745" />
+<SubTexture name="whitewalts idle0006" x="934" y="1007" width="468" height="493" frameX="-31" frameY="-146" frameWidth="609" frameHeight="745" />
+<SubTexture name="whitewalts idle0007" x="1402" y="1007" width="468" height="493" frameX="-31" frameY="-146" frameWidth="609" frameHeight="745" />
+<SubTexture name="whitewalts left0000" x="1498" y="0" width="466" height="497" frameX="-159" frameY="-173" frameWidth="848" frameHeight="953" />
+<SubTexture name="whitewalts left0001" x="0" y="1007" width="467" height="495" frameX="-153" frameY="-175" frameWidth="848" frameHeight="953" />
+<SubTexture name="whitewalts left0002" x="1964" y="0" width="466" height="493" frameX="-152" frameY="-177" frameWidth="848" frameHeight="953" />
+<SubTexture name="whitewalts left0003" x="1964" y="493" width="466" height="493" frameX="-153" frameY="-177" frameWidth="848" frameHeight="953" />
+<SubTexture name="whitewalts left0004" x="1964" y="493" width="466" height="493" frameX="-153" frameY="-177" frameWidth="848" frameHeight="953" />
+<SubTexture name="whitewalts left0005" x="1964" y="493" width="466" height="493" frameX="-153" frameY="-177" frameWidth="848" frameHeight="953" />
+<SubTexture name="whitewalts left0006" x="1964" y="493" width="466" height="493" frameX="-153" frameY="-177" frameWidth="848" frameHeight="953" />
+<SubTexture name="whitewalts right0000" x="466" y="510" width="466" height="497" frameX="-59" frameY="-142" frameWidth="609" frameHeight="745" />
+<SubTexture name="whitewalts right0001" x="1032" y="0" width="466" height="497" frameX="-63" frameY="-142" frameWidth="609" frameHeight="745" />
+<SubTexture name="whitewalts right0002" x="1964" y="986" width="465" height="492" frameX="-58" frameY="-147" frameWidth="609" frameHeight="745" />
+<SubTexture name="whitewalts right0003" x="0" y="1502" width="466" height="492" frameX="-56" frameY="-147" frameWidth="609" frameHeight="745" />
+<SubTexture name="whitewalts right0004" x="0" y="1502" width="466" height="492" frameX="-56" frameY="-147" frameWidth="609" frameHeight="745" />
+<SubTexture name="whitewalts right0005" x="0" y="1502" width="466" height="492" frameX="-56" frameY="-147" frameWidth="609" frameHeight="745" />
+<SubTexture name="whitewalts right0006" x="1032" y="497" width="466" height="497" frameX="-63" frameY="-142" frameWidth="609" frameHeight="745" />
+<SubTexture name="whitewalts up0000" x="2430" y="953" width="383" height="456" frameX="-98" frameY="-189" frameWidth="609" frameHeight="745" />
+<SubTexture name="whitewalts up0001" x="1498" y="497" width="355" height="495" frameX="-113" frameY="-150" frameWidth="609" frameHeight="745" />
+<SubTexture name="whitewalts up0002" x="344" y="0" width="344" height="509" frameX="-119" frameY="-136" frameWidth="609" frameHeight="745" />
+<SubTexture name="whitewalts up0003" x="0" y="0" width="344" height="510" frameX="-119" frameY="-135" frameWidth="609" frameHeight="745" />
+<SubTexture name="whitewalts up0004" x="0" y="0" width="344" height="510" frameX="-119" frameY="-135" frameWidth="609" frameHeight="745" />
+<SubTexture name="whitewalts up0005" x="0" y="0" width="344" height="510" frameX="-119" frameY="-135" frameWidth="609" frameHeight="745" />
+<SubTexture name="whitewalts up0006" x="0" y="0" width="344" height="510" frameX="-119" frameY="-135" frameWidth="609" frameHeight="745" />
+<SubTexture name="whitewalts up0007" x="688" y="0" width="344" height="500" frameX="-119" frameY="-145" frameWidth="609" frameHeight="745" />
+</TextureAtlas>
