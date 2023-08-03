@@ -13,8 +13,8 @@
 		},
 		{
 			"offsets": [
-				150,
-				-15
+				240,
+				-35
 			],
 			"loop": false,
 			"fps": 24,
@@ -24,8 +24,8 @@
 		},
 		{
 			"offsets": [
-				140,
-				-75
+				280,
+				-132
 			],
 			"loop": false,
 			"fps": 24,
@@ -35,8 +35,8 @@
 		},
 		{
 			"offsets": [
-				0,
-				75
+				60,
+				133
 			],
 			"loop": false,
 			"fps": 24,
@@ -46,8 +46,8 @@
 		},
 		{
 			"offsets": [
-				40,
-				-65
+				100,
+				-115
 			],
 			"loop": false,
 			"fps": 24,
@@ -59,8 +59,8 @@
 	"no_antialiasing": false,
 	"image": "characters/Trollge",
 	"position": [
-		150,
-		380
+		210,
+		280
 	],
 	"healthicon": "trollge",
 	"flip_x": false,
@@ -70,9 +70,9 @@
 		255
 	],
 	"camera_position": [
-		0,
-		0
+		-350,
+		-110
 	],
 	"sing_duration": 4,
-	"scale": 1.5
+	"scale": 1.75
 }
