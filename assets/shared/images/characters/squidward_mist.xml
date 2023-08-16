@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="squidward mist.png">
+	<!-- Created with Adobe Animate version 23.0.1.70 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="down0000" x="0" y="0" width="572" height="762" frameX="0" frameY="-42" frameWidth="588" frameHeight="804"/>
+	<SubTexture name="down0001" x="0" y="0" width="572" height="762" frameX="0" frameY="-42" frameWidth="588" frameHeight="804"/>
+	<SubTexture name="down0002" x="572" y="0" width="568" height="804" frameX="-20" frameY="0" frameWidth="588" frameHeight="804"/>
+	<SubTexture name="down0003" x="572" y="0" width="568" height="804" frameX="-20" frameY="0" frameWidth="588" frameHeight="804"/>
+	<SubTexture name="idle0000" x="1140" y="0" width="539" height="961"/>
+	<SubTexture name="left0000" x="1679" y="0" width="657" height="892" frameX="0" frameY="0" frameWidth="658" frameHeight="892"/>
+	<SubTexture name="left0001" x="1679" y="0" width="657" height="892" frameX="0" frameY="0" frameWidth="658" frameHeight="892"/>
+	<SubTexture name="left0002" x="2336" y="0" width="635" height="888" frameX="-23" frameY="-4" frameWidth="658" frameHeight="892"/>
+	<SubTexture name="left0003" x="2336" y="0" width="635" height="888" frameX="-23" frameY="-4" frameWidth="658" frameHeight="892"/>
+	<SubTexture name="right0000" x="2971" y="0" width="628" height="806" frameX="-1" frameY="0" frameWidth="629" frameHeight="806"/>
+	<SubTexture name="right0001" x="2971" y="0" width="628" height="806" frameX="-1" frameY="0" frameWidth="629" frameHeight="806"/>
+	<SubTexture name="right0002" x="0" y="961" width="569" height="787" frameX="0" frameY="-19" frameWidth="629" frameHeight="806"/>
+	<SubTexture name="right0003" x="0" y="961" width="569" height="787" frameX="0" frameY="-19" frameWidth="629" frameHeight="806"/>
+	<SubTexture name="up0000" x="569" y="961" width="684" height="1049" frameX="0" frameY="0" frameWidth="703" frameHeight="1049"/>
+	<SubTexture name="up0001" x="569" y="961" width="684" height="1049" frameX="0" frameY="0" frameWidth="703" frameHeight="1049"/>
+	<SubTexture name="up0002" x="1253" y="961" width="647" height="968" frameX="-56" frameY="-81" frameWidth="703" frameHeight="1049"/>
+	<SubTexture name="up0003" x="1253" y="961" width="647" height="968" frameX="-56" frameY="-81" frameWidth="703" frameHeight="1049"/>
+</TextureAtlas>
