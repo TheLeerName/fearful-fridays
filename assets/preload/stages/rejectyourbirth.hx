@@ -1,7 +1,8 @@
 import flixel.addons.display.FlxRuntimeShader;
-import backend.MusicBeatState;
-import objects.Note;
+
 import Reflect;
+
+import objects.Note;
 import backend.Conductor;
 
 function makeShader(glsl_code:String) {
@@ -67,50 +68,58 @@ function tweenShader(shader:String, name:String, value:Float, duration:Float, ?o
 	});
 }
 
-var camChars_zoomMult = 1;
-var camChars:FlxCamera = new FlxCamera();
-camChars.bgColor = 0;
-FlxG.cameras.remove(game.camHUD, false);
-FlxG.cameras.remove(game.camOther, false);
-FlxG.cameras.add(camChars, false);
-FlxG.cameras.add(game.camHUD, false);
-FlxG.cameras.add(game.camOther, false);
-game.boyfriendGroup.camera = game.gfGroup.camera = game.dadGroup.camera = camChars;
-
-// bg of dad (your)
-var bg = new FlxSprite(-185, 50).loadGraphic(Paths.image('BG3'));
-bg.scale.set(1.35, 1.35);
-bg.shader = shaders["bg"];
-addBehindDad(bg);
-
-// get out bro
-game.gfGroup.visible = false;
-game.boyfriendGroup.visible = false;
-
-// repos camera
-game.isCameraOnForcedPos = true;
-game.camGame.scroll.set(0, 0);
-game.camGame.snapToTarget();
-
-// change bf icon to coolie
-game.iconP1.changeIcon('bf-another');
-game.healthBar.rightBar.color = 0xff0066ff;
-
-// applying my best shader!!!!!
-var camshaders = [
-	new ShaderFilter(shaders["psv"]),
-	new ShaderFilter(shaders["zoomblur"]),
-];
-game.camGame.setFilters(camshaders);
-camChars.setFilters(camshaders);
-game.camHUD.setFilters(camshaders);
-
 function tweenBlackout(?bgAdd:Float = 0, ?dadAdd:Float = 0, ?duration:Float = 2) {
 	tweenShader("bg", "colorAdd", bgAdd, duration);
 	tweenShader("dad", "colorAdd", dadAdd, duration);
 }
 
-tweenBlackout(0, 0, 0.001); // idk why but uniforms in shaders stays the same in state reloading
+var camChars_zoomMult = 1;
+var camChars:FlxCamera = new FlxCamera();
+
+var bg = new FlxSprite();
+
+function onCreatePost() {
+	camChars.bgColor = 0;
+	FlxG.cameras.remove(game.camHUD, false);
+	FlxG.cameras.remove(game.camOther, false);
+	FlxG.cameras.add(camChars, false);
+	FlxG.cameras.add(game.camHUD, false);
+	FlxG.cameras.add(game.camOther, false);
+	game.boyfriendGroup.camera = game.gfGroup.camera = game.dadGroup.camera = camChars;
+
+	// bg of dad (your)
+	bg.setPosition(-185, 50);
+	bg.loadGraphic(Paths.image('BG3'));
+	bg.scale.set(1.35, 1.35);
+	bg.shader = shaders["bg"];
+	addBehindDad(bg);
+
+	// get out bro
+	game.boyfriendGroup.visible = false;
+
+	// repos camera
+	game.isCameraOnForcedPos = true;
+	game.camGame.scroll.set(0, 0);
+	game.camGame.snapToTarget();
+
+	// change bf icon to coolie
+	game.iconP1.changeIcon('bf-another');
+	game.healthBar.rightBar.color = 0xff0066ff;
+
+	// applying my best shader!!!!!
+	var camshaders = [
+		new ShaderFilter(shaders["psv"]),
+		new ShaderFilter(shaders["zoomblur"]),
+	];
+	game.camGame.setFilters(camshaders);
+	camChars.setFilters(camshaders);
+	game.camHUD.setFilters(camshaders);
+
+	game.dad.shader = shaders["dad"];
+
+	tweenBlackout(0, 0, 0.001); // idk why but uniforms in shaders stays the same in state reloading
+}
+
 var zoomblurAllowed = false;
 function onStepHit() {
 	switch(curStep) {
@@ -217,11 +226,6 @@ function onDestroy() {
 	ClientPrefs.data.opponentStrums = saveopst;
 }
 
-function onCreatePost() {
-	// repos dad
-	game.dad.y -= 50;
-	game.dad.shader = shaders["dad"];
-}
 function onUpdate(elapsed) {
 	if (camChars != null) {
 		camChars.scroll.x = game.camGame.scroll.x;
