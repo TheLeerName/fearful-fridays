@@ -108,7 +108,7 @@
 
 	<!--Psych stuff needed-->
 	<haxelib name="linc_luajit" if="LUA_ALLOWED"/>
-	<haxelib name="SScript" version="4.0.1" if="HSCRIPT_ALLOWED"/>
+	<haxelib name="SScript" version="5.0.0" if="HSCRIPT_ALLOWED"/>
 	<haxelib name="hxCodec" version="3.0.2" if="VIDEOS_ALLOWED"/>
 	<haxelib name="discord_rpc" if="desktop"/>
 	<haxelib name="tjson" version="1.4.0"/>
@@ -166,7 +166,7 @@
 	<haxeflag name="--macro" value="allowPackage('flash')" />
 	<haxeflag name="--macro" value="include('my.pack')" />
 	<haxeflag name="--macro" value="macros.AdditionalClasses.add()" />
-	<haxeflag name="-dce" value="no" />
+	<haxeflag name="-dce" value="std" />
 
 	<!-- _________________________________ Custom _______________________________ -->
 
