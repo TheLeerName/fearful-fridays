@@ -1,8 +1,9 @@
 # Building mod
-1. Install [**Haxe 4.2.5**](https://haxe.org/download/version/4.2.5/)
+1. Install [**Haxe 4.3.2**](https://haxe.org/download/version/4.3.2/)
 2. Do this command in cmd:
 ```
 haxelib install hmm
+haxelib run setup hmm
 ```
 ### If you not on Windows go to step 6
 3. Download [**VS Community**](https://visualstudio.microsoft.com/downloads/)
