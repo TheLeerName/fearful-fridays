@@ -87,7 +87,6 @@
 		<library name="week_assets"   preload="false" />
 	</section>
 
-	<assets path="assets/shaders"       library="shaders" />
 	<assets path="assets/videos"        library="videos"        if="VIDEOS_ALLOWED"/>
 	<assets path="assets/songs"         library="songs"         exclude="*.ogg" if="web"/>
 	<assets path="assets/songs"         library="songs"         exclude="*.mp3" unless="web"/>
@@ -97,7 +96,7 @@
 	<assets path="assets/week_assets"   library="week_assets"   rename="assets" exclude="*.mp3" unless="web"/>
 
 	<section if="MODS_ALLOWED">
-		<assets path='example_mods' rename='mods' embed='false'/>
+		<assets path='mods' embed='false'/>
 	</section>
 
 	<!-- _______________________________ Libraries ______________________________ -->

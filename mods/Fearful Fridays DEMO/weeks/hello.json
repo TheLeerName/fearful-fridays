@@ -16,10 +16,10 @@
 	"difficulties": "Normal",
 
 	"storyName": "ur mom",
-	"weekBefore": "tutorial",
-	"weekName": "Week 1",
+	"weekBefore": "none",
+	"weekName": "hello",
 	"startUnlocked": true,
 
-	"hideStoryMode": false,
+	"hideStoryMode": true,
 	"hideFreeplay": false
 }

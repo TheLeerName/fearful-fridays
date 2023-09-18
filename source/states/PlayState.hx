@@ -3478,7 +3478,7 @@ class PlayState extends MusicBeatState
 			return true;
 		}
 
-		var foldersToCheck:Array<String> = ['assets/shaders/', Paths.mods('shaders/')];
+		var foldersToCheck:Array<String> = [Paths.mods('shaders/')];
 		if(Mods.currentModDirectory != null && Mods.currentModDirectory.length > 0)
 			foldersToCheck.insert(0, Paths.mods(Mods.currentModDirectory + '/shaders/'));
 
