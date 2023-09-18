@@ -3,7 +3,7 @@
 <img src="art/logo.png"/>
 
 ## [Building](building.md)
-This build is just Psych Engine 0.7.1h with our songs and stuff
+This build is just Psych Engine 0.7.1h with our songs and stuff as mod folder
 # Credits
 ### Main authors
 - Owners - [Big Hombre](https://www.youtube.com/@TheBigHombre)<img src="mods/Fearful Fridays DEMO/images/credits/BigHombre.png" width="10%" align="center"> / [randomdood](https://discord.com/users/1002414876066598953)<img src="assets/preload/images/credits/missing_icon.png" width="10%" align="center"/>
