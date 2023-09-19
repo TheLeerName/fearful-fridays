@@ -3,7 +3,7 @@
 2. Do this command in cmd:
 ```
 haxelib install hmm
-haxelib run setup hmm
+haxelib run hmm install
 ```
 ### If you not on Windows go to step 6
 3. Download [**VS Community**](https://visualstudio.microsoft.com/downloads/)
