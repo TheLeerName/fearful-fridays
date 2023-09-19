@@ -2,8 +2,12 @@
 
 <img src="art/logo.png"/>
 
+## Changes
+### DEMO v2
+- Fixed Rejection shaders by implementing hscript-improved
+
 ## [Building](building.md)
-This build is just Psych Engine 0.7.1h with our songs and stuff as mod folder
+This build is just Psych Engine 0.7.1h with our songs and stuff as mod folder, and with implemented [hscript-improved](https://github.com/TheLeerName/hscript-improved) library from Codename Engine, like i did in [here](https://github.com/ShadowMario/FNF-PsychEngine/pull/13304)
 # Credits
 ### Main authors
 - Owners - [Big Hombre](https://www.youtube.com/@TheBigHombre)<img src="mods/Fearful Fridays DEMO/images/credits/BigHombre.png" width="10%" align="center"> / [randomdood](https://discord.com/users/1002414876066598953)<img src="assets/preload/images/credits/missing_icon.png" width="10%" align="center"/>

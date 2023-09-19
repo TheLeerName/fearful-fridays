@@ -60,15 +60,11 @@ var shaders = [
 	"dad" => makeShaderFromFunction("gl_FragColor.rgb += colorAdd;", "uniform float colorAdd;"),
 ];
 function tweenShader(shader:String, name:String, value:Float, duration:Float, ?options:Dynamic) {
-	var shader:FlxRuntimeShader = shaders[shader];
-	if (shader == null) return null;
-	var init_value:Float = shader.getFloat(name);
-	if (init_value == null) {
-		shader.setFloat(name, 0);
-		init_value = 0;
-	}
-	return FlxTween.num(init_value, value, duration, options, function(val:Float) {
-		shader.setFloat(name, val);
+	var field = Reflect.field(shaders[shader].data, name);
+	if (field == null) return null;
+	if (field.value == null) field.value = [0];
+	return FlxTween.num(field.value[0], value, duration, options, function(val:Float) {
+		field.value = [val];
 	});
 }
 
@@ -92,7 +88,7 @@ function onCreatePost() {
 	game.boyfriendGroup.camera = game.gfGroup.camera = game.dadGroup.camera = camChars;
 
 	// bg of dad (your)
-	bg.setPosition(-185, -20);
+	bg.setPosition(-185, -25);
 	bg.loadGraphic(Paths.image('BG3'));
 	bg.scale.set(1.35, 1.35);
 	bg.shader = shaders["bg"];
