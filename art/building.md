@@ -1,5 +1,5 @@
 # Building mod
-1. Install [**Haxe 4.3.2**](https://haxe.org/download/version/4.3.2/)
+1. Install [**Haxe 4.3.2**](https://haxe.org/download/version/4.3.2/) or 4.2.5 if you want
 2. Do this command in cmd:
 ```
 haxelib install hmm
