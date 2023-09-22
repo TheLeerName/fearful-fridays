@@ -107,7 +107,7 @@
 
 	<!--Psych stuff needed-->
 	<haxelib name="linc_luajit" if="LUA_ALLOWED"/>
-	<haxelib name="hscript" if="HSCRIPT_ALLOWED"/>
+	<haxelib name="hscript-improved" if="HSCRIPT_ALLOWED"/>
 	<haxelib name="hxCodec" version="3.0.2" if="VIDEOS_ALLOWED"/>
 	<haxelib name="discord_rpc" if="desktop"/>
 	<haxelib name="tjson" version="1.4.0"/>
